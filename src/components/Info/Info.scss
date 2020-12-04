@@ -1,0 +1,49 @@
+.info_container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F3F4;
+
+    .short_info {
+        text-align: center;
+        width: 900px;
+    }
+
+    .intro {
+        font-size: 20px;
+        margin: 20px auto;
+    }
+    .persons {
+        display: flex;
+        justify-content: space-around;
+        width: 1100px;
+        margin: 150px auto;
+        
+        .personal_info {
+            padding: 15px;
+            background-color: white;
+            width: 300px;
+            box-shadow: 0 11px 13px rgba(0, 0, 0, 0.11);
+            height: 380px;
+            border-radius: 7px;
+            line-height: 2;
+            
+            .avatar {
+                background-color: blue;
+                box-shadow: 0 11px 13px rgba(0, 0, 0, 0.11);
+                margin: -40% auto 40px;
+                width: 220px;
+                height: 220px;
+                border-radius: 50%;
+            }
+
+            .experience, .education{
+                span {
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
