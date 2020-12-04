@@ -1,0 +1,30 @@
+{
+    "main_content": {
+        "header": "Pharmacy for your family",
+        "content": "Pharmacy and technical products shop in Dushanbe."
+    },
+    "info": {
+        "fields": {
+            "experience": "Experience",
+            "education": "Education"
+        },
+        "person_1": {
+            "name": "Gulshan Murodalieva",
+            "position": "Director",
+            "experience": "20 years",
+            "education": "USA"
+        },
+        "person_2": {
+            "name": "Abubakr Nazirmadov",
+            "position": "Manager",
+            "experience": "1 year",
+            "education": "USA"
+        },
+        "person_3": {
+            "name": "Khuroson Murodalieva",
+            "position": "Pharmacist",
+            "experience": "2 years",
+            "education": "USA"
+        }
+    }
+}
