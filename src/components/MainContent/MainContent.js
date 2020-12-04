@@ -8,7 +8,7 @@ function MainContent() {
             <div className='underheader'>
                 <div className='underheader_container'>
                     <div className='underheader_left'>
-                        <h1 class='header'>Все для Стоматологии</h1>
+                        <h1 className='header'>Все для Стоматологии</h1>
                         <div>
                             Магазин стоматологической и     технической     продукции в Душанбе.
                         </div>    

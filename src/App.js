@@ -1,4 +1,5 @@
 import './App.scss';
+import Advantages from './components/Advantages/Advantages';
 import Header from './components/Header/Header';
 import MainContent from './components/MainContent/MainContent';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="container">
       <Header />
       <MainContent />
+      <Advantages />
     </div>
   );
 }
