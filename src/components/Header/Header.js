@@ -9,7 +9,7 @@ function Header() {
             <AnchorLink href="#home" offset='80' className="logo">
                 <img src={logo} alt="LOGO" />
             </AnchorLink>
-            <AnchorLink href="" offset='80' className="anchor">About Us</AnchorLink>
+            <AnchorLink href="#about_us" offset='80' className="anchor">About Us</AnchorLink>
             <AnchorLink href="" offset='80' className="anchor">Our Advantages</AnchorLink>
             <AnchorLink href="" offset='80' className="anchor">Contacts</AnchorLink>
         </nav>

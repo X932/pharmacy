@@ -1,0 +1,30 @@
+{
+    "main_content": {
+        "header": "Семейная стоматология",
+        "content": "Магазин стоматологической и технической продукции в Душанбе."
+    },
+    "info": {
+        "fields": {
+            "experience": "Опыт работы",
+            "education": "Образование"
+        },
+        "person_1": {
+            "name": "Гулшан Муродалиева",
+            "position": "Директор",
+            "experience": "20 лет",
+            "education": "США"
+        },
+        "person_2": {
+            "name": "Абубакр Назирмадов",
+            "position": "Менеджер",
+            "experience": "1 год",
+            "education": "США"
+        },
+        "person_3": {
+            "name": "Хуросон Муродалиева",
+            "position": "Фармацевт",
+            "experience": "2 года",
+            "education": "США"
+        }
+    }
+}
