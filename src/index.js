@@ -7,11 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import './i18n';
 
 ReactDOM.render(
-  // <React.StrictMode>
-    <Suspense fallback="Loading ...">
-      <App />
-    </Suspense>,
-  //  </React.StrictMode>,
+  <Suspense fallback="Loading ...">
+    <App />
+  </Suspense>,
   document.getElementById('root')
 );
 
