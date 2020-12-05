@@ -1,9 +1,17 @@
 {
+    "header": {
+        "about_us": "About Us",
+        "advantages": "Our Advantages",
+        "contacts": "Contacts"
+    },
     "main_content": {
         "header": "Pharmacy for your family",
         "content": "Pharmacy and technical products shop in Dushanbe."
     },
     "info": {
+        "short_info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis.",
+        "intro_header": "Responsible for your smile",
+        "intro": "Doctors with experience:",
         "fields": {
             "experience": "Experience",
             "education": "Education"
@@ -26,5 +34,24 @@
             "experience": "2 years",
             "education": "USA"
         }
+    },
+    "advantages": {
+        "advantages_short_info": "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem.",
+        "product_header_advantage1": "advantage 1",
+        "product_content_advantage1": "advantage 1 content",
+        "product_header_advantage2": "advantage 2",
+        "product_content_advantage2": "advantage 2 content",
+        "product_header_advantage3": "advantage 3",
+        "product_content_advantage3": "advantage 3 content",
+        "product_header_advantage4": "advantage 4",
+        "product_content_advantage4": "advantage 4 content",
+        "product_header_advantage5": "advantage 5",
+        "product_content_advantage5": "advantage 5 content",
+        "product_header_advantage6": "advantage 6",
+        "product_content_advantage6": "advantage 6 content",
+        "product_header_advantage7": "advantage 7",
+        "product_content_advantage7": "advantage 7 content",
+        "product_header_advantage8": "advantage 8",
+        "product_content_advantage8": "advantage 8 content"
     }
 }
