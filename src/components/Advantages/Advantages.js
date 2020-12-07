@@ -5,7 +5,7 @@ import dental from '../MainContent/img/dental.png';
 import Fade from 'react-reveal/Fade';
 
 function Advantages() {
-    const { t, } = useTranslation();
+    const { t } = useTranslation();
     return (
         <Fade>
             <div className='advantages'>
