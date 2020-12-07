@@ -1,14 +1,12 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './Info.scss'
+import './Info.scss';
+import personImg from './img/person.jpg';
+import Fade from 'react-reveal/Fade';
 
 function Info() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     
-    function handleLanguage(lang) {
-        i18n.changeLanguage(lang);
-    }
-
     const personalInfo = [
         {
             id: 1,
@@ -34,39 +32,37 @@ function Info() {
     ];
     return (
         <div className="info_container" id="about_us">
-            <button onClick={() => handleLanguage('en')}>Eng</button>
-            <button onClick={() => handleLanguage('ru')}>Rus</button>
-            
-            <div className="short_info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis.
-            </div>
-
-            <div className="personal_info_container">
-                <h1 className="intro_header">За вашу улыбку ответственны</h1>
-                
-                <div className="intro">
-                    Врачи со стажем от 8 лет, 91% из которых прошли стажировку в зарубежных клиниках:
+            <Fade bottom delay={200}>
+                <div className="short_info">
+                    {t('info.short_info')}
                 </div>
-                <div className="persons">
-                    {personalInfo.map(p => {
-                        return (
-                            <div className="personal_info" key={p.id}>
-                                <div className="avatar"></div>
-                                <p className="name">{p.person}</p>
-                                <p className="position">{p.position}</p>
-                                <p className="experience">
-                                    <span>{t('info.fields.experience')}:</span> {p.experience}
-                                </p>
-                                <p className="education">
-                                    <span>{t('info.fields.education')}:</span> {p.education}
-                                </p>
-                            </div>
-                        )
-                    })}
+            </Fade>
+            <Fade>
+                <div className="personal_info_container">
+                    <h1 className="intro_header">{t("info.intro_header")}</h1>
+                    
+                    <div className="intro">
+                        {t('info.intro')}
+                    </div>
+                    <div className="persons">
+                        {personalInfo.map(p => {
+                            return (
+                                <div className="personal_info" key={p.id}>
+                                    <div className="avatar"><img src={personImg} alt="noAvatar"/></div>
+                                    <p className="name">{p.person}</p>
+                                    <p className="position">{p.position}</p>
+                                    <p className="experience">
+                                        <span>{t('info.fields.experience')}:</span> {p.experience}
+                                    </p>
+                                    <p className="education">
+                                        <span>{t('info.fields.education')}:</span> {p.education}
+                                    </p>
+                                </div>
+                            )
+                        })}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     )
 }

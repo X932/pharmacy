@@ -2,6 +2,6 @@
 
 /build
 
-.eslintcache
+.eslintcache*
 yarn-debug.log*
 yarn-error.log*
