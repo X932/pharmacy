@@ -1,10 +1,9 @@
 .block-contacts{
-    background: magenta;
+    background: #56c8c1;
     width: 100%;
     height: 500px;
 }
 .contacts-container{
-    background: maroon;
     width: 1200px;
     height: 400px;
     margin: 0 auto;
@@ -12,19 +11,26 @@
     padding-bottom: 50px;
 }
 .contacts-content{
-    background: mediumblue;
     width: 1120px;
     height: 400px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     .contents-left{
         h2{
             font-size: 45px;
             margin: 7px;
+            color: white;
         }
     }
 }
+.contact-item{
+    display: flex;
+    flex-direction: column;
+}
 .adress{
-    background: mediumorchid;
     width: 300px;
     height: 75px;
     display: flex;
@@ -37,15 +43,15 @@
         }
     }
     div{
-        line-height: 20px;
+        line-height: 30px;
         span{
             display: block;
             font-size: 18px;
         }
+        .street{color: white;}
     }
 }
 .phone{
-    background: mediumorchid;
     width: 300px;
     height: 75px;
     display: flex;
@@ -58,11 +64,12 @@
         }
     }
     div{
-        line-height: 25px;
+        line-height: 30px;
         span{
             display: block;
             font-size: 18px;
         }
+        .num{color: white;}
         .num:hover{
             text-decoration:underline;
             cursor: pointer;
@@ -70,7 +77,6 @@
     }
 }
 .mail{
-    background: mediumorchid;
     width: 300px;
     height: 75px;
     display: flex;
@@ -83,7 +89,7 @@
         }
     }
     div{
-        line-height: 20px;
+        line-height: 25px;
         span{
             display: block;
             font-size: 18px;
@@ -92,6 +98,7 @@
             text-decoration: underline;
             cursor: pointer;
         }
+        .gmail{color: white;}
     }
 }
 .seperate{
@@ -100,8 +107,16 @@
 .capital-letter{
     font-size: 20px;
     font-weight: bold;
+    color: #75fff7
 }
-
+.content-right{
+    background-color: mediumvioletred;
+    height: 300px;
+}
+.map{
+    width: 500px;
+    height: 100px;
+}
 
 
 

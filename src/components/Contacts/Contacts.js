@@ -1,34 +1,22 @@
 import React from 'react'
 import './Contacts.scss';
-// import adress from '../MainContent/img/home.png';
-// import phone from '../MainContent/img/phone.png';
-// import mail from '../MainContent/img/email.png';
+import adress from '../MainContent/img/home.png';
+import phone from '../MainContent/img/phone.png';
+import mail from '../MainContent/img/email.png';
 // import { Map } from 'google-maps-react';
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
-function Contacts() {
-const MapContainer = () => {
+// const  Contacts() {
+const Contacts = () => {
   
   const mapStyles = {        
-    height: "100vh",
+    height: "300px",
     width: "100%"};
   
   const defaultCenter = {
-    lat: 41.3851, lng: 2.1734
+    lat: 38.528675, lng: 68.762532
   }
   
-  return (
-     <LoadScript
-       googleMapsApiKey='AIzaSyAXkxoQJ-MK-OgcqBV2cqDycLfUJxMVVFk'>
-        <GoogleMap
-          mapContainerStyle={mapStyles}
-          zoom={13}
-          center={defaultCenter}
-        />
-     </LoadScript>
-  )
-}
-    
     return (
         <div className='block-contacts'>
             <div className='contacts-container'>
@@ -42,7 +30,7 @@ const MapContainer = () => {
                                 </div>
                                 <div>
                                     <span className='capital-letter'>Адрес:</span>
-                                    <span>Негмат Карабаева 82</span>
+                                    <span className='street'>Негмат Карабаева 82</span>
                                 </div>
                             </div>
                             <div className='phone seperate'>
@@ -69,9 +57,16 @@ const MapContainer = () => {
                         <div className='contact-item'></div>
                         <div className='contact-item'></div>
                     </div>
-                    <div className='content-left'>
+                    <div className='content-right'>
                         <div className='map'>
-                       
+                        <LoadScript
+                            googleMapsApiKey='AIzaSyAXkxoQJ-MK-OgcqBV2cqDycLfUJxMVVFk'>
+                            <GoogleMap
+                            mapContainerStyle={mapStyles}
+                            zoom={13}
+                            center={defaultCenter}
+                            />
+                        </LoadScript>
                         </div>
                     </div>
                 </div>
