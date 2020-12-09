@@ -46,7 +46,7 @@ function Header() {
                 <div className="menu_anchors">
                     <AnchorLink href="#about_us" offset='80' className="anchor">{t('header.about_us')}</AnchorLink>
                     <AnchorLink href="#advantages" offset='80' className="anchor">{t('header.advantages')}</AnchorLink>
-                    <AnchorLink href="" offset='80' className="anchor">{t('header.contacts')}</AnchorLink>
+                    <AnchorLink href="#contacts" className="anchor">{t('header.contacts')}</AnchorLink>
                 </div>
                 <div className="languages">
                     <button onClick={() => handleLanguage('en')}>Eng</button>

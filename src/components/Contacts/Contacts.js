@@ -11,8 +11,9 @@ import { GoogleMap, LoadScript } from '@react-google-maps/api';
 const Contacts = () => {
 
     const mapStyles = {        
-    height: "300px",
-    width: "100%"};
+        height: "300px",
+        width: "100%"
+    };
   
   const defaultCenter = {
     lat: 38.528675, lng: 68.762532
@@ -27,14 +28,14 @@ const Contacts = () => {
                         <img className='kmiz' src={kmiz} alt='Partner Kmiz'></img>
                 </div>    
             </div>
-            <div className='contacts-container'>
+            <div className='contacts-container' id='contacts'>
                 <div className='contacts-content'>
                     <div className='contents-left'>
                         <h2>Наши Контакты</h2>
                         <div className='contact-item'>
-                            <div className='adress seperate'>
+                            <div className='address seperate'>
                                 <div>
-                                    <img className='pharm-adress' src={adress} alt='Adress'></img>
+                                    <img className='pharm-address' src={adress} alt='Adress'></img>
                                 </div>
                                 <div>
                                     <span className='capital-letter'>Адрес:</span>
@@ -67,14 +68,14 @@ const Contacts = () => {
                     </div>
                     <div className='content-right'>
                         <div className='map'>
-                        <LoadScript
-                            googleMapsApiKey='AIzaSyAXkxoQJ-MK-OgcqBV2cqDycLfUJxMVVFk'>
-                            <GoogleMap
-                            mapContainerStyle={mapStyles}
-                            zoom={13}
-                            center={defaultCenter}
-                            />
-                        </LoadScript>
+                            <LoadScript
+                                googleMapsApiKey='AIzaSyAXkxoQJ-MK-OgcqBV2cqDycLfUJxMVVFk'>
+                                <GoogleMap
+                                mapContainerStyle={mapStyles}
+                                zoom={13}
+                                center={defaultCenter}
+                                />
+                            </LoadScript>
                         </div>
                     </div>
                 </div>
