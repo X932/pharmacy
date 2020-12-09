@@ -3,13 +3,14 @@ import './Contacts.scss';
 import adress from '../MainContent/img/home.png';
 import phone from '../MainContent/img/phone.png';
 import mail from '../MainContent/img/email.png';
-// import { Map } from 'google-maps-react';
+import vladmiva from '../MainContent/img/vladmiva.png';
+import kmiz from '../MainContent/img/kmiz.png';
+import aliftechLogo from '../MainContent/img/aliftech.png';
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
-// const  Contacts() {
 const Contacts = () => {
-  
-  const mapStyles = {        
+
+    const mapStyles = {        
     height: "300px",
     width: "100%"};
   
@@ -19,6 +20,13 @@ const Contacts = () => {
   
     return (
         <div className='block-contacts'>
+            <div className='block-partners'>
+                <h2>Партнёры</h2>
+                <div className='partners-container'>
+                        <img className='vladmiva' src={vladmiva} alt='Partner Vladmiva'></img>
+                        <img className='kmiz' src={kmiz} alt='Partner Kmiz'></img>
+                </div>    
+            </div>
             <div className='contacts-container'>
                 <div className='contacts-content'>
                     <div className='contents-left'>
@@ -68,6 +76,14 @@ const Contacts = () => {
                             />
                         </LoadScript>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className='aliftechLogo'>
+                <div className='aliftechLogo-container'>
+                Made by <img src={aliftechLogo} className='logo' alt='alifetchLogo'></img>
+                    <div className='madeBy'>
+                        <span>AlifTech</span>
                     </div>
                 </div>
             </div>

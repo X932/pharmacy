@@ -1,14 +1,41 @@
+//block partners
+.block-partners{
+    background: #F1F3F4;
+    height: 370px;
+    text-align: center;
+    h2{
+        font-size: 42px;
+
+    }
+}
+.partners-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vladmiva{
+    max-width: 400px;
+    height: 100px;
+    margin: 0 30px;
+}
+.kmiz{
+    max-width: 400px;
+    height: 300px;
+    margin: 0 30px;
+}
+
+//block contacts
 .block-contacts{
     background: #56c8c1;
     width: 100%;
-    height: 500px;
+    height: 850px;
 }
 .contacts-container{
     width: 1200px;
     height: 400px;
     margin: 0 auto;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .contacts-content{
     width: 1120px;
@@ -117,8 +144,27 @@
     width: 500px;
     height: 100px;
 }
-
-
+//AlifTechLogo
+.aliftechLogo{
+    height: 45px;
+    background: #F1F3F4;
+    .aliftechLogo-container{
+        max-width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 10px;
+        .logo{
+            height: 45px;
+            max-width: 45px;
+        }
+        .madeBy {
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}
 
 
 
