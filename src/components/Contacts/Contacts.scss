@@ -1,0 +1,182 @@
+//block partners
+.block-partners{
+    background: #F1F3F4;
+    height: 370px;
+    text-align: center;
+    h2{
+        font-size: 42px;
+
+    }
+}
+.partners-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vladmiva{
+    max-width: 400px;
+    height: 100px;
+    margin: 0 30px;
+}
+.kmiz{
+    max-width: 400px;
+    height: 300px;
+    margin: 0 30px;
+}
+
+//block contacts
+.block-contacts{
+    background: #56c8c1;
+    width: 100%;
+    height: 850px;
+}
+.contacts-container{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.contacts-content{
+    width: 1120px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .contents-left{
+        h2{
+            font-size: 45px;
+            margin: 7px;
+            color: white;
+        }
+    }
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+}
+.adress{
+    width: 300px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    div{
+        .pharm-adress{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+    }
+    div{
+        line-height: 30px;
+        span{
+            display: block;
+            font-size: 18px;
+        }
+        .street{color: white;}
+    }
+}
+.phone{
+    width: 300px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    div{
+        .phone{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+    }
+    div{
+        line-height: 30px;
+        span{
+            display: block;
+            font-size: 18px;
+        }
+        .num{color: white;}
+        .num:hover{
+            text-decoration:underline;
+            cursor: pointer;
+        }
+    }
+}
+.mail{
+    width: 300px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    div{
+        .mail-icon{
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+    }
+    div{
+        line-height: 25px;
+        span{
+            display: block;
+            font-size: 18px;
+        }
+        .gmail:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .gmail{color: white;}
+    }
+}
+.seperate{
+    margin: 30px 10px 10px 10px;
+}
+.capital-letter{
+    font-size: 20px;
+    font-weight: bold;
+    color: #75fff7
+}
+.content-right{
+    background-color: mediumvioletred;
+    height: 300px;
+}
+.map{
+    width: 500px;
+    height: 100px;
+}
+//AlifTechLogo
+.aliftechLogo{
+    height: 45px;
+    background: #F1F3F4;
+    .aliftechLogo-container{
+        max-width: 170px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 10px;
+        .logo{
+            height: 45px;
+            max-width: 45px;
+        }
+        .madeBy {
+            span {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
