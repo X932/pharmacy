@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './Info.scss'
+import './Info.scss';
+import personImg from './img/person.jpg';
 import Fade from 'react-reveal/Fade';
 
 function Info() {
@@ -47,7 +48,7 @@ function Info() {
                         {personalInfo.map(p => {
                             return (
                                 <div className="personal_info" key={p.id}>
-                                    <div className="avatar"></div>
+                                    <div className="avatar"><img src={personImg} alt="noAvatar"/></div>
                                     <p className="name">{p.person}</p>
                                     <p className="position">{p.position}</p>
                                     <p className="experience">
