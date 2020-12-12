@@ -1,5 +1,4 @@
 .info_container {
-    margin: 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,18 +7,21 @@
 
     .short_info {
         text-align: center;
-        max-width: 900px;
-    }
-
-    .intro {
+        max-width: 1000px;
+        margin: 30px auto;
         font-size: 20px;
-        margin: 20px auto;
+        
+        @media (max-width: 436px) {
+            & {
+                font-size: 15px;
+            }
+        }
     }
     .persons {
         display: flex;
         justify-content: space-around;
         max-width: 1300px;
-        margin: 150px auto;
+        margin: 60px auto;
         flex-wrap: wrap;
         
         .personal_info {
@@ -32,6 +34,16 @@
             border-radius: 7px;
             line-height: 2;
             margin: 70px 30px;
+            transition: 0.3s;
+            
+            &:hover {
+                box-shadow: 0 11px 13px rgba(0, 0, 0, 0.411);
+                transform: scale(0.98);
+                transition: 0.3s;
+            }
+            @media (max-width: 372px) {
+                margin: 70px 0;
+            }
             
             .avatar {
                 background-color: blue;
@@ -39,14 +51,24 @@
                 max-width: 220px;
                 height: 220px;
                 border-radius: 50%;
+
+                @media (max-width: 480px) {
+                    & {
+                        max-width: 190px;
+                        height: 190px;
+                        margin-top: -40%;
+                    }
+                }
+                
                 img {
-                    box-shadow: 0 11px 13px rgba(0, 0, 0, 0.11);
+                    box-shadow: 0 11px 13px rgba(0, 0, 0, 0.185);
                     border-radius: 50%;
                     max-width: 100%;
                 }
             }
 
             .experience, .education{
+                max-width: 270px;
                 span {
                     font-weight: 800;
                 }

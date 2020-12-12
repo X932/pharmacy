@@ -1,35 +1,42 @@
-.advantages{
+.advantages {
     max-width: 100%;
 }
-.flex-container{
+.flex-container {
     max-width: 1120px;
     margin: 0 auto;
-    .text{
+    
+    .text {
         margin: 0 auto;
         max-width: 1000px;
-        p{
+        p {
             font-size: 20px;
             margin: 20px 10px;
             text-align: center;
         }
     }
-    h2{
+    h2 {
         text-align: center;
         font-size: 40px;
+
+        @media (max-width: 550px) {
+            & {
+                font-size: 30px;
+            }
+        }
     }
 }
-.flex-block{
+.flex-block {
     display: flex;
     justify-content: center;
     max-width: 1120px;
     flex-wrap: wrap;
+    
     .flex-item-part-2 {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-
-    .flex-item{
+    .flex-item {
         max-width: 280px;
         min-width: 220px;
         height: 220px;
@@ -40,38 +47,23 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    .top{
+    .top {
         border-top: 0;
-        .products{
+        
+        .products {
             max-width: 86px;
             height: 80px;
             color: black;
             margin: 10px 10px;
         }
-        p{
-            margin: 15px 10px;
-        }
-        span{
+        p {
+            margin: 25px 10px 0;
+            font-size: 19px;
             font-weight: bold;
-            margin: 10px 10px;
         }
     }
-    p{
-        margin: 15px 10px;
-    }
-    span{
-        font-weight: bold;
-        margin: 10px 10px;
-    }
-    .one{
+    .one {
         border-left: 0;
-
-        @media (max-width: 442px) {
-            & {
-                border-left:  2px solid rgb(224, 224, 224);
-                border-right: none;
-            }
-        }
     }
     .two {
         @media (max-width: 885px) {
@@ -79,8 +71,22 @@
                 border-right: none;
             }
         }
+        @media (max-width: 442px) {
+            & {
+                border-left:  2px solid rgb(224, 224, 224);
+            }
+        }
     }
-    .four{ 
+    .four { 
         border-right: none;
+        
+        @media (max-width: 442px) {
+            & {
+                border-left:  2px solid rgb(224, 224, 224);
+            }
+        }
+        .products {
+           max-width: 140px;
+        }
     }
 }

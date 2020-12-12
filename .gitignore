@@ -3,5 +3,4 @@
 /build
 
 .eslintcache*
-yarn-debug.log*
 yarn-error.log*

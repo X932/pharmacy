@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Header.scss';
-import logo from './img/logoExample.png';
+import logo from '../../assets/images/header/logoExample.png';
 import { useTranslation } from 'react-i18next';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Fade from 'react-reveal/Fade';
@@ -44,13 +44,14 @@ function Header() {
                     <img src={logo} alt="LOGO" />
                 </AnchorLink>
                 <div className="menu_anchors">
-                    <AnchorLink href="#about_us" offset='80' className="anchor">{t('header.about_us')}</AnchorLink>
+                    <AnchorLink href="#about_us" offset='60' className="anchor">{t('header.about_us')}</AnchorLink>
                     <AnchorLink href="#advantages" offset='80' className="anchor">{t('header.advantages')}</AnchorLink>
                     <AnchorLink href="#contacts" className="anchor">{t('header.contacts')}</AnchorLink>
                 </div>
                 <div className="languages">
                     <button onClick={() => handleLanguage('en')}>Eng</button>
-                    <button onClick={() => handleLanguage('ru')}>Rus</button>
+                    <button onClick={() => handleLanguage('ru')}>Рус</button>
+                    <button onClick={() => handleLanguage('chi')}>Chi</button>
                 </div>
                 
                 <div className={activeBurgerMenu ? 'opened burger_btn' : 'burger_btn'} onClick={() => menuController()} ref={burgerBtnRef} >
@@ -60,9 +61,9 @@ function Header() {
                 <div className={activeBurgerMenu ? "active_burger" : "inactive_burger"} 
                     onClick={() => setActiveBurgerMenu(false)} ref={burgerMenuRef} >
 
-                    <AnchorLink href="#about_us" offset='80' className="anchor">{t('header.about_us')}</AnchorLink>
+                    <AnchorLink href="#about_us" offset='60' className="anchor">{t('header.about_us')}</AnchorLink>
                     <AnchorLink href="#advantages" offset='80' className="anchor">{t('header.advantages')}</AnchorLink>
-                    <AnchorLink href="" offset='80' className="anchor">{t('header.contacts')}</AnchorLink>
+                    <AnchorLink href="#contacts" offset='80' className="anchor">{t('header.contacts')}</AnchorLink>
                 
                 </div>
             </nav>

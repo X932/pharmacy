@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './Info.scss';
-import personImg from './img/person.jpg';
+import personImg from '../../assets/images/info/person.jpg';
 import Fade from 'react-reveal/Fade';
 
 function Info() {
@@ -12,8 +12,7 @@ function Info() {
             id: 1,
             person: <>{t('info.person_1.name')}</>,
             position: <>{t('info.person_1.position')}</>,
-            experience: <>{t('info.person_1.experience')}</>,
-            education: <>{t('info.person_1.education')}</>,
+            experience: <>{t('info.person_1.experience')}</>
         },
         {
             id: 2,
@@ -26,8 +25,7 @@ function Info() {
             id: 3,
             person: <>{t('info.person_3.name')}</>,
             position: <>{t('info.person_3.position')}</>,
-            experience: <>{t('info.person_3.experience')}</>,
-            education: <>{t('info.person_3.education')}</>,
+            experience: <>{t('info.person_3.experience')}</>
         }
     ];
     return (
@@ -39,11 +37,6 @@ function Info() {
             </Fade>
             <Fade>
                 <div className="personal_info_container">
-                    <h1 className="intro_header">{t("info.intro_header")}</h1>
-                    
-                    <div className="intro">
-                        {t('info.intro')}
-                    </div>
                     <div className="persons">
                         {personalInfo.map(p => {
                             return (
@@ -54,9 +47,9 @@ function Info() {
                                     <p className="experience">
                                         <span>{t('info.fields.experience')}:</span> {p.experience}
                                     </p>
-                                    <p className="education">
+                                    {p.education && <p className="education">
                                         <span>{t('info.fields.education')}:</span> {p.education}
-                                    </p>
+                                    </p>}
                                 </div>
                             )
                         })}

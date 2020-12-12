@@ -5,13 +5,11 @@
         "contacts": "Contacts"
     },
     "main_content": {
-        "header": "Pharmacy for your family",
-        "content": "Pharmacy and technical products shop in Dushanbe."
+        "header": "Everything for Dentistry",
+        "content": "Dental and technical products store in Dushanbe."
     },
     "info": {
-        "short_info": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iusto maxime natus, ducimus repellat recusandae eveniet accusantium veritatis! Et iusto repellendus, nisi voluptatibus id provident aspernatur pariatur voluptate consequatur omnis.",
-        "intro_header": "Responsible for your smile",
-        "intro": "Doctors with experience:",
+        "short_info": "In 2009 the company Medstomatekhnika LLC was founded. Its main focus was the purchase and sale of dental and technical consumables. Since 2019, Medstomatekhnika LLC has cooperated with the UN providing warehousing and storage services for medical products. It was decided to create a new company that will work in the field of dentistry, after which the company 'Darmon Tachkhizot LLC was founded.'",
         "fields": {
             "experience": "Experience",
             "education": "Education"
@@ -19,39 +17,37 @@
         "person_1": {
             "name": "Gulshan Murodalieva",
             "position": "Director",
-            "experience": "20 years",
-            "education": "USA"
+            "experience": "20 years"
         },
         "person_2": {
             "name": "Abubakr Nazirmadov",
             "position": "Manager",
             "experience": "1 year",
-            "education": "USA"
+            "education": "University of Science and technology Beijing"
         },
         "person_3": {
             "name": "Khuroson Murodalieva",
             "position": "Pharmacist",
-            "experience": "2 years",
-            "education": "USA"
+            "experience": "2 years"
         }
     },
     "advantages": {
-        "advantages_short_info": "Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem.",
-        "product_header_advantage1": "advantage 1",
-        "product_content_advantage1": "advantage 1 content",
-        "product_header_advantage2": "advantage 2",
-        "product_content_advantage2": "advantage 2 content",
-        "product_header_advantage3": "advantage 3",
-        "product_content_advantage3": "advantage 3 content",
-        "product_header_advantage4": "advantage 4",
-        "product_content_advantage4": "advantage 4 content",
-        "product_header_advantage5": "advantage 5",
-        "product_content_advantage5": "advantage 5 content",
-        "product_header_advantage6": "advantage 6",
-        "product_content_advantage6": "advantage 6 content",
-        "product_header_advantage7": "advantage 7",
-        "product_content_advantage7": "advantage 7 content",
-        "product_header_advantage8": "advantage 8",
-        "product_content_advantage8": "advantage 8 content"
+        "advantages_short_info": "We value our customers and therefore we sell equipment and products only from those manufacturers, the quality of the products does not raise doubts and complaints.",
+        "product_content_advantage1": "Price",
+        "product_content_advantage2": "Large assortment",
+        "product_content_advantage3": "Quality",
+        "product_content_advantage4": "Free delivery"
+    },
+    "partners": {
+        "header": "Our Partners"
+    },
+    "contacts": {
+        "header": "Our Contact",
+        "address": {
+            "header": "Address",
+            "street": "Negmata Karabaeva "
+        },
+        "telephone": "Phone Number",
+        "mail": "Mail"
     }
 }

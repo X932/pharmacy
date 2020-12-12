@@ -1,7 +1,10 @@
 import React from 'react';
 import  './Advantages.scss';
 import { useTranslation } from 'react-i18next';
-import dental from '../MainContent/img/dental.png';
+import priceIcon from '../../assets/images/advantages/price.png';
+import productIcon from '../../assets/images/advantages/product.png';
+import qualityIcon from '../../assets/images/advantages/quality.png';
+import deliveryIcon from '../../assets/images/advantages/delivery.png';
 import Fade from 'react-reveal/Fade';
 
 function Advantages() {
@@ -18,24 +21,20 @@ function Advantages() {
                         </div>
                         <div className='flex-block'> 
                             <div className='flex-item one top'>
-                                <img  className='products' src={dental} alt='Dental'></img>
-                                <span>{t('advantages.product_header_advantage1')}</span>
+                                <img  className='products' src={priceIcon} alt='priceIcon'></img>
                                 <p>{t('advantages.product_content_advantage1')}</p>
                             </div>
                             <div className='flex-item two top'>
-                                <img  className='products' src={dental} alt='Dental'></img>
-                                <span>{t('advantages.product_header_advantage2')}</span>
+                                <img  className='products' src={productIcon} alt='productIcon'></img>
                                 <p>{t('advantages.product_content_advantage2')}</p>
                             </div> 
                             <div className='flex-item-part-2'>
-                                <div className='flex-item top'>
-                                    <img  className='products' src={dental} alt='Dental'></img>
-                                    <span>{t('advantages.product_header_advantage3')}</span>
+                                <div className='flex-item three top'>
+                                    <img  className='products' src={qualityIcon} alt='qualityIcon'></img>
                                     <p>{t('advantages.product_content_advantage3')}</p>
                                 </div>
-                                <div className='flex-item top four'>
-                                    <img  className='products' src={dental} alt='Dental'></img>
-                                    <span>{t('advantages.product_header_advantage4')}</span>
+                                <div className='flex-item four top'>
+                                    <img  className='products' src={deliveryIcon} alt='deliveryIcon'></img>
                                     <p>{t('advantages.product_content_advantage4')}</p>
                                 </div>
                             </div>

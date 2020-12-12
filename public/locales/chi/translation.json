@@ -1,0 +1,53 @@
+{
+    "header": {
+        "about_us": "关于我们",
+        "advantages": "我们的优势",
+        "contacts": "联系方式"
+    },
+    "main_content": {
+        "header": "牙科的一切",
+        "content": "牙科和技术产品商店在杜尚别。"
+    },
+    "info": {
+        "short_info": "2009年，Medstomatekhnika LLC公司成立。主要重点是牙科和技术消耗品的购销。自2019年以来，Medstomatekhnika LLC与联合国合作提供医疗产品的仓储和存储服务。决定创建一家将在牙科领域工作的新公司，之后成立了Darmon Tachkhizot LLC公司。",
+        "fields": {
+            "experience": "工作经验",
+            "education": "教学"
+        },
+        "person_1": {
+            "name": "Gulshan Murodalieva",
+            "position": "老板",
+            "experience": "20 年"
+        },
+        "person_2": {
+            "name": "Abubakr Nazirmadov",
+            "position": "销售经理",
+            "experience": "1 年",
+            "education": "北京科技大学"
+        },
+        "person_3": {
+            "name": "Khuroson Murodalieva",
+            "position": "药剂师",
+            "experience": "2 年"
+        }
+    },
+    "advantages": {
+        "advantages_short_info": "我们重视客户，因此我们仅从其产品质量不会引起怀疑和投诉的制造商那里出售设备和产品。",
+        "product_content_advantage1": "价格",
+        "product_content_advantage2": "各种各样的产品",
+        "product_content_advantage3": "最好的质量",
+        "product_content_advantage4": "免费送货"
+    },
+    "partners": {
+        "header": "我们的伙伴"
+    },
+    "contacts": {
+        "header": "联系方式",
+        "address": {
+            "header": "地址",
+            "street": "Negmata Karabaeva "
+        },
+        "telephone": "电话",
+        "mail": "邮箱"
+    }
+}

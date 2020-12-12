@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './MainContent.scss';
-import iron from './img/iron.png';
+import mainPhoto from '../../assets/images/mainContent/main_photo.png';
 import Fade from 'react-reveal/Fade';
 
 function MainContent() {
@@ -20,7 +20,7 @@ function MainContent() {
                         </div>
                     </Fade>
                     <Fade>
-                        <img className='underheader_img' src={iron} alt='IROn'></img>
+                        <img className='underheader_img' src={mainPhoto} alt='noMainPhoto'></img>
                     </Fade>
                 </div>
             </div>
