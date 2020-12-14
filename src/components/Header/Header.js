@@ -51,7 +51,7 @@ function Header() {
                 <div className="languages">
                     <button onClick={() => handleLanguage('en')}>Eng</button>
                     <button onClick={() => handleLanguage('ru')}>Рус</button>
-                    <button onClick={() => handleLanguage('chi')}>Chi</button>
+                    <button onClick={() => handleLanguage('chi')}>中文</button>
                 </div>
                 
                 <div className={activeBurgerMenu ? 'opened burger_btn' : 'burger_btn'} onClick={() => menuController()} ref={burgerBtnRef} >
