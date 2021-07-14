@@ -55,6 +55,7 @@ const Contacts = () => {
                                     <span className='capital-letter'>{t('contacts.telephone')}:</span>
                                     <span className='num'>(+992)980885520</span>
                                     <span className='num'>(+992)935768787</span>
+                                    <span className='num'>2346369</span>
                                 </div>
                             </div>
                             <div className='mail seperate'>

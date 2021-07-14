@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Header.scss';
-import logo from '../../assets/images/header/logoExample.png';
+import logo from '../../assets/images/header/darmon_taj-removebg-preview.png';
 import { useTranslation } from 'react-i18next';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Fade from 'react-reveal/Fade';
